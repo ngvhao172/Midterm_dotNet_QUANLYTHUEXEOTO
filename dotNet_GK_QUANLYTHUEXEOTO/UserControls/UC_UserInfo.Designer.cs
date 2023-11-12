@@ -47,6 +47,10 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtSearchPhoneNumber = new System.Windows.Forms.TextBox();
             this.btnBack = new System.Windows.Forms.Button();
+            this.txtCarId = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtCarType = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCustomers)).BeginInit();
@@ -65,6 +69,10 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtCarType);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.txtCarId);
+            this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.dtpDob);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.txtAddress);
@@ -77,7 +85,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(46, 88);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(433, 305);
+            this.groupBox1.Size = new System.Drawing.Size(433, 347);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin cá nhân";
@@ -92,7 +100,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(32, 216);
+            this.label6.Location = new System.Drawing.Point(32, 210);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(60, 15);
             this.label6.TabIndex = 10;
@@ -164,7 +172,7 @@
             // 
             // btnRentCar
             // 
-            this.btnRentCar.Location = new System.Drawing.Point(392, 417);
+            this.btnRentCar.Location = new System.Drawing.Point(392, 441);
             this.btnRentCar.Name = "btnRentCar";
             this.btnRentCar.Size = new System.Drawing.Size(87, 42);
             this.btnRentCar.TabIndex = 12;
@@ -234,6 +242,38 @@
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // txtCarId
+            // 
+            this.txtCarId.Location = new System.Drawing.Point(126, 253);
+            this.txtCarId.Name = "txtCarId";
+            this.txtCarId.Size = new System.Drawing.Size(268, 23);
+            this.txtCarId.TabIndex = 13;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(32, 256);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(60, 15);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "Biển số xe";
+            // 
+            // txtCarType
+            // 
+            this.txtCarType.Location = new System.Drawing.Point(126, 296);
+            this.txtCarType.Name = "txtCarType";
+            this.txtCarType.Size = new System.Drawing.Size(268, 23);
+            this.txtCarType.TabIndex = 15;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(32, 299);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(44, 15);
+            this.label9.TabIndex = 14;
+            this.label9.Text = "Loại xe";
+            // 
             // UC_UserInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -278,5 +318,9 @@
         private GroupBox groupBox3;
         private TextBox txtSearchPhoneNumber;
         private Button btnBack;
+        private TextBox txtCarType;
+        private Label label9;
+        private TextBox txtCarId;
+        private Label label8;
     }
 }

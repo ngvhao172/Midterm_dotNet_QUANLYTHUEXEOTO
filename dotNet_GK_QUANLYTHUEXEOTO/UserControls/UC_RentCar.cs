@@ -157,7 +157,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             }
         }
 
-        private void btnRent_Click(object sender, EventArgs e)
+        private async void btnRent_Click(object sender, EventArgs e)
         {
             //Validate
             if(!rdElectric.Checked && !rdGas.Checked && !rdOil.Checked)
@@ -190,7 +190,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
                     fuelType = rdOil.Text;
                 }
                
-                Fuel fuelPicker = fuelController.GetFuelByName(fuelType);
+                Fuel fuelPicker = await fuelController.GetFuelByName(fuelType);
 
                 //Tạo booking ở đây rồi truyền sang userInfo
                 DataGridViewRow totalRow = dgvFee.Rows.Cast<DataGridViewRow>().LastOrDefault();

@@ -22,10 +22,13 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
         private CustomerController customerController;
 
         private BookingController bookingController;
+
+        private CarController carController;
         public UC_UserInfo()
         {
             this.customerController = App.ServiceProvider.GetRequiredService<CustomerController>();
             this.bookingController = App.ServiceProvider.GetRequiredService<BookingController>();
+            this.carController = App.ServiceProvider.GetRequiredService<CarController>();
             InitializeComponent();
         }
         private void UC_UserInfo_Load(object sender, EventArgs e)
@@ -36,6 +39,11 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
                  dgvCustomers.Rows.Add(customer.FullName, customer.PhoneNumber, customer.CustomerEmail, customer.Address, customer.Dob.Date);
              }*/
             dgvCustomers.DataSource = customerList;
+
+            txtCarId.Text = Booking.CarId;
+            txtCarId.Enabled= false;
+            txtCarType.Text = CarType.ToString();
+            txtCarType.Enabled= false;
         }
         private void addUserControl(UserControl userControl, Control panel)
         {
@@ -77,14 +85,42 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
         {
             if(validateInfo())
             {
-                //Tạo Customer nếu chưa tồn tại
-                var newCustomer = new Customer { FullName = txtFullName.Text.ToString(), CustomerEmail = txtEmail.Text.ToString(), Address = txtAddress.Text.ToString(), PhoneNumber = txtPhoneNumber.Text.ToString(), Dob = dtpDob.Value };
-                
-                await customerController.AddCustomer(newCustomer);
-                //
-                Booking.CustomerId = newCustomer.CustomerId;
-                await bookingController.AddBooking(Booking);
+                Customer existedCustomer = await customerController.GetCustomerByPhoneNumber(txtPhoneNumber.Text.Trim());
+                if(existedCustomer == null)
+                {
+                    //Tạo Customer nếu chưa tồn tại
+                    Customer newCustomer = new Customer { FullName = txtFullName.Text.ToString(), CustomerEmail = txtEmail.Text.ToString(), Address = txtAddress.Text.ToString(), PhoneNumber = txtPhoneNumber.Text.ToString(), Dob = dtpDob.Value };
 
+                    await customerController.AddCustomer(newCustomer);
+                    //
+                    Booking.CustomerId = newCustomer.CustomerId;
+                    await bookingController.AddBooking(Booking);
+                }
+                else
+                {
+                    DialogResult result = MessageBox.Show("Số điện thoại đã được đăng ký trước đó. Hệ thống sẽ lấy thông tin cũ của bạn. Bạn có chắc chắn muốn tiếp tục không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                    if (result == DialogResult.Yes)
+                    {
+                        Booking.CustomerId = existedCustomer.CustomerId;
+                        await bookingController.AddBooking(Booking);
+                    }
+                    else
+                    {
+                        return;
+                    }
+                }
+                Car carSelected = await carController.GetCarById(Booking.CarId);
+                if (carSelected != null)
+                {
+                    carSelected.Status = Model.Enum.CarStatus.Busy;
+                    carController.UpdateCar(carSelected);
+                }
+                else
+                {
+                    MessageBox.Show("Đã có lỗi xảy ra. Không thể cập nhật trạng thái xe");
+                    return;
+                }
                 MessageBox.Show("Tạo đơn thuê xe thành công");
 
                 Button clickedButon = sender as Button;

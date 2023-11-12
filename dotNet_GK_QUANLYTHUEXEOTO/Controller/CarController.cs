@@ -31,5 +31,17 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Controller
             var cars = dbContext.Cars.Where(c => c.CarTypeId == carType && c.Status == Model.Enum.CarStatus.Available).ToList();
             return cars;
         }
+
+        public async Task<Car> GetCarById(string carId)
+        {
+            var car = await dbContext.Cars.Where(c => c.Id == carId).FirstOrDefaultAsync();
+            return car;
+        }
+
+        public async void UpdateCar(Car car)
+        {
+            dbContext.Cars.Update(car);
+            await dbContext.SaveChangesAsync();
+        }
     }
 }

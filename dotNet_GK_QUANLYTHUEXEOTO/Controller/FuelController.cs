@@ -16,9 +16,9 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Controller
         {
             this.dbContext = dbContext;
         }
-        public Fuel GetFuelByName(string fuelName)
+        public async Task<Fuel> GetFuelByName(string fuelName)
         {
-            var car = dbContext.Fuels.Where(c => c.Name == fuelName).FirstOrDefault();
+            var car = await dbContext.Fuels.Where(c => c.Name == fuelName).FirstOrDefaultAsync();
             return car;
         }
     }
