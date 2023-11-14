@@ -45,7 +45,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             {
                 foreach (Car car in carList)
                 {
-                    if (car.Id.Contains(keyword) || car.CarType.Name.ToLower().Contains(keyword) || car.Manufacturer.ToLower().Contains(keyword) || car.Model.Contains(keyword))
+                    if (car.Id.ToLower().Contains(keyword) || car.CarType.Name.ToLower().Contains(keyword) || car.Manufacturer.ToLower().Contains(keyword) || car.Model.Contains(keyword))
                     {
                         searchResults.Add(car);
                     }

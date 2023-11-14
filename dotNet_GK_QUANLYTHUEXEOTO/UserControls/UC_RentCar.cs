@@ -40,13 +40,8 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
         {
             featuresList = new List<Feature>();
             var CarTypeObject = carTypesController.GetCarTypeByName(CarType);
-            byte[] imageData = CarTypeObject.CarImage;
             //Hiển thị ảnh xe đã chọn
-            using (MemoryStream ms = new MemoryStream(imageData))
-            {
-                Bitmap bitmap = new Bitmap(ms);
-                pBCarImage.Image = bitmap;
-            }
+            pBCarImage.ImageLocation = CarTypeObject.CarImage;
             lbCarName.Text = CarTypeObject.Name;
             //Căn giữa tên xe
             lbCarName.Location = new Point((lbCarName.Parent.Width - lbCarName.Width) / 2, lbCarName.Top);
@@ -68,7 +63,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             {
                 checkListBox.Items.Add(item.Name);
             }
-            /*   dgvFee.Rows.Add(CarTypeObject.Name, CarTypeObject.RentPrice);*/
+            dgvFee.Rows.Add(CarTypeObject.Name, CarTypeObject.RentPrice);
 
             var Duration = dtpTo.Value.Date - dtpFrom.Value.Date;
             int daysDifference = (int)Duration.TotalDays + 1;

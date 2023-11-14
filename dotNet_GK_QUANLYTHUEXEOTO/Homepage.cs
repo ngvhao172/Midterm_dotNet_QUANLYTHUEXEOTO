@@ -73,12 +73,12 @@ namespace dotNet_GK_QUANLYTHUEXEOTO
 
         private void Homepage_Load(object sender, EventArgs e)
         {
-            using (var dbContext = new BookingCarDbContext())
+/*            using (var dbContext = new BookingCarDbContext())
             {
                 dbContext.Database.EnsureCreated();
 
                 dbContext.SaveChanges();
-            }
+            }*/
 
         }
     }

@@ -14,6 +14,6 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Model.Domain
         public double RentPrice { get; set; }
 
         [Required]
-        public byte[] CarImage { get; set; }
+        public string CarImage { get; set; }
     }
 }

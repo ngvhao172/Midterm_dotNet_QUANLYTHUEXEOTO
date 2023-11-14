@@ -35,15 +35,15 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Model.Data
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            /*modelBuilder.Entity<CarType>().HasData(
-                new CarType { Id = 1, Name = "4 chỗ (Mini)", RentPrice = 1000, CarImage = ImageToByteArray("Resources/Images/CarTypes/MINI.png") },
-                new CarType { Id = 2, Name = "4 chỗ (Sedan)", RentPrice = 1200, CarImage = ImageToByteArray("Resources/Images/CarTypes/SEDAN.png") },
-                new CarType { Id = 3, Name = "4 chỗ (Hatchback)", RentPrice = 1500, CarImage = ImageToByteArray("Resources/Images/CarTypes/HATCHBACK.png") },
-                new CarType { Id = 4, Name = "5 chỗ (CUV Gầm cao)", RentPrice = 2000, CarImage = ImageToByteArray("Resources/Images/CarTypes/CUV.png") },
-                new CarType { Id = 5, Name = "7 chỗ (SUV Gầm cao)", RentPrice = 4000, CarImage = ImageToByteArray("Resources/Images/CarTypes/SUV.png") },
-                new CarType { Id = 6, Name = "7 chỗ (MPV Gầm thấp)", RentPrice = 3000, CarImage = ImageToByteArray("Resources/Images/CarTypes/MPV.png") },
-                new CarType { Id = 7, Name = "Bán tải", RentPrice = 500, CarImage = ImageToByteArray("Resources/Images/CarTypes/PICKUP.png") }
-            );*/
+            modelBuilder.Entity<CarType>().HasData(
+                new CarType { Id = 1, Name = "4 chỗ (Mini)", RentPrice = 1000, CarImage = "../../../Resources/Images/CarTypes/MINI.png" },
+                new CarType { Id = 2, Name = "4 chỗ (Sedan)", RentPrice = 1200, CarImage = "../../../Resources/Images/CarTypes/SEDAN.png" },
+                new CarType { Id = 3, Name = "4 chỗ (Hatchback)", RentPrice = 1500, CarImage = "../../../Resources/Images/CarTypes/HATCHBACK.png" },
+                new CarType { Id = 4, Name = "5 chỗ (CUV Gầm cao)", RentPrice = 2000, CarImage = "../../../Resources/Images/CarTypes/CUV.png" },
+                new CarType { Id = 5, Name = "7 chỗ (SUV Gầm cao)", RentPrice = 4000, CarImage = "../../../Resources/Images/CarTypes/SUV.png" },
+                new CarType { Id = 6, Name = "7 chỗ (MPV Gầm thấp)", RentPrice = 3000, CarImage = "../../../Resources/Images/CarTypes/MPV.png" },
+                new CarType { Id = 7, Name = "Bán tải", RentPrice = 500, CarImage = "../../../Resources/Images/CarTypes/PICKUP.png" }
+            );
             modelBuilder.Entity<Car>().HasData(
                 new Car { Id = "75H7777", Model = "2023", CarTypeId = 2, Manufacturer = "Tesla", Status = Enum.CarStatus.Available },
                 new Car { Id = "92H1010", Model = "2023", CarTypeId = 1, Manufacturer = "Huynhdai", Status = Enum.CarStatus.Available },
@@ -80,7 +80,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Model.Data
             );
         }
 
-        public byte[] ImageToByteArray(string location)
+       /* public byte[] ImageToByteArray(string location)
         {
             Image image = Image.FromFile(location);
             Bitmap bitmap = new Bitmap(image);
@@ -89,6 +89,6 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Model.Data
                 bitmap.Save(stream, ImageFormat.Png);
                 return stream.ToArray();
             }
-        }
+        }*/
     }
 }
