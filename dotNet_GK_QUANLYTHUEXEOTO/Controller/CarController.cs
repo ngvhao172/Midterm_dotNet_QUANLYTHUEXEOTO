@@ -38,7 +38,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Controller
             return car;
         }
 
-        public async void UpdateCar(Car car)
+        public async Task UpdateCar(Car car)
         {
             dbContext.Cars.Update(car);
             await dbContext.SaveChangesAsync();

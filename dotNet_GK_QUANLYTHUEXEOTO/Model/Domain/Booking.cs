@@ -1,4 +1,5 @@
-﻿using System;
+﻿using dotNet_GK_QUANLYTHUEXEOTO.Model.Enum;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -26,6 +27,10 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Model.Domain
 
         [Required]
         public double TotalPrice { get; set; }
+
+        [Required]
+        public BookingStatus Status { get; set; }
+
         public Customer Customer { get; set; }
         public Car Car { get; set; }
         public List<Feature> Features { get; set; }

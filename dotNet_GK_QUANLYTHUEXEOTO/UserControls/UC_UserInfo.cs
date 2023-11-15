@@ -94,6 +94,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
                     await customerController.AddCustomer(newCustomer);
                     //
                     Booking.CustomerId = newCustomer.CustomerId;
+                    Booking.Status = Model.Enum.BookingStatus.Renting;
                     await bookingController.AddBooking(Booking);
                 }
                 else

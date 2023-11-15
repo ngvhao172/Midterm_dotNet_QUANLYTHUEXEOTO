@@ -67,6 +67,9 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Migrations
                     b.Property<int>("FuelId")
                         .HasColumnType("int");
 
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("ToDate")
                         .HasColumnType("datetime2");
 

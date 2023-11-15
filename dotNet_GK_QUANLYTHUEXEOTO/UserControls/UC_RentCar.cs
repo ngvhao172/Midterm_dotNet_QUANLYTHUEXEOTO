@@ -63,11 +63,11 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             {
                 checkListBox.Items.Add(item.Name);
             }
-            dgvFee.Rows.Add(CarTypeObject.Name, CarTypeObject.RentPrice);
+           /* dgvFee.Rows.Add(CarTypeObject.Name, CarTypeObject.RentPrice);*/
 
             var Duration = dtpTo.Value.Date - dtpFrom.Value.Date;
             int daysDifference = (int)Duration.TotalDays + 1;
-
+            //Tiền thuê xe = tiền xe * số ngày thuê
             dgvFee.Rows.Add(daysDifference + "ngày", CarTypeObject.RentPrice * daysDifference);
             UpdateTotalRow();
         }

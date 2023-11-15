@@ -32,7 +32,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             {
                 dgvBookings.Rows.Add(booking.Id, booking.Customer.FullName, booking.Customer.PhoneNumber, booking.Customer.CustomerEmail, booking.Customer.Address, booking.Car.CarType.Name, booking.CarId, booking.FromDate.ToShortDateString(), booking.ToDate.ToShortDateString());
             }
-            disableInput(false);
+            /*disableInput(false);*/
         }
         private void disableInput(bool b)
         {
@@ -44,9 +44,9 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             txtToDate.Enabled= b;
             txtFromDate.Enabled= b;
             txtCarType.Enabled= b;
-            btnAdd.Enabled= b;
+     /*       btnAdd.Enabled= b;
             btnDelete.Enabled= b;
-            btnEdit.Enabled= b;
+            btnEdit.Enabled= b;*/
         }
         private void dgvBookings_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
@@ -76,7 +76,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             {
                 foreach (Booking booking in bookingList)
                 {
-                    if (booking.Customer.PhoneNumber.Contains(keyword))
+                    if (booking.Customer.PhoneNumber.Contains(keyword) || booking.Customer.FullName.ToLower().Contains(keyword) || booking.CarId.ToLower().Contains(keyword))
                     {
                         searchResults.Add(booking);
                     }
@@ -95,6 +95,11 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
                     dgvBookings.Rows.Add(booking.Id, booking.Customer.FullName, booking.Customer.PhoneNumber, booking.Customer.CustomerEmail, booking.Customer.Address, booking.Car.CarType.Name, booking.CarId, booking.FromDate.ToShortDateString(), booking.ToDate.ToShortDateString());
                 }
             }
+        }
+        //Ngăn chặn người dùng thay đổi input
+        private void txtValue_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
         }
     }
 }

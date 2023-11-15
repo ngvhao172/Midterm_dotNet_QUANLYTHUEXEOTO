@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnEdit = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
             this.txtToDate = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txtFromDate = new System.Windows.Forms.TextBox();
@@ -68,9 +65,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnEdit);
-            this.groupBox1.Controls.Add(this.btnDelete);
-            this.groupBox1.Controls.Add(this.btnAdd);
             this.groupBox1.Controls.Add(this.txtToDate);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.txtFromDate);
@@ -94,39 +88,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin đơn đặt";
             // 
-            // btnEdit
-            // 
-            this.btnEdit.Location = new System.Drawing.Point(306, 409);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(75, 23);
-            this.btnEdit.TabIndex = 30;
-            this.btnEdit.Text = "Sửa";
-            this.btnEdit.UseVisualStyleBackColor = true;
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Location = new System.Drawing.Point(207, 409);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
-            this.btnDelete.TabIndex = 29;
-            this.btnDelete.Text = "Xóa";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.Location = new System.Drawing.Point(113, 409);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
-            this.btnAdd.TabIndex = 28;
-            this.btnAdd.Text = "Thêm";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            // 
             // txtToDate
             // 
             this.txtToDate.Location = new System.Drawing.Point(114, 360);
             this.txtToDate.Name = "txtToDate";
             this.txtToDate.Size = new System.Drawing.Size(268, 23);
             this.txtToDate.TabIndex = 27;
+            this.txtToDate.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValue_KeyPress);
             // 
             // label9
             // 
@@ -143,6 +111,7 @@
             this.txtFromDate.Name = "txtFromDate";
             this.txtFromDate.Size = new System.Drawing.Size(268, 23);
             this.txtFromDate.TabIndex = 25;
+            this.txtFromDate.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValue_KeyPress);
             // 
             // label8
             // 
@@ -159,6 +128,7 @@
             this.txtCarId.Name = "txtCarId";
             this.txtCarId.Size = new System.Drawing.Size(268, 23);
             this.txtCarId.TabIndex = 23;
+            this.txtCarId.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValue_KeyPress);
             // 
             // label7
             // 
@@ -175,6 +145,7 @@
             this.txtCarType.Name = "txtCarType";
             this.txtCarType.Size = new System.Drawing.Size(268, 23);
             this.txtCarType.TabIndex = 21;
+            this.txtCarType.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValue_KeyPress);
             // 
             // label2
             // 
@@ -200,6 +171,7 @@
             this.txtFullName.Name = "txtFullName";
             this.txtFullName.Size = new System.Drawing.Size(268, 23);
             this.txtFullName.TabIndex = 13;
+            this.txtFullName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValue_KeyPress);
             // 
             // txtAddress
             // 
@@ -207,6 +179,7 @@
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(268, 23);
             this.txtAddress.TabIndex = 19;
+            this.txtAddress.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValue_KeyPress);
             // 
             // label3
             // 
@@ -232,6 +205,7 @@
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.Size = new System.Drawing.Size(268, 23);
             this.txtPhoneNumber.TabIndex = 15;
+            this.txtPhoneNumber.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValue_KeyPress);
             // 
             // txtEmail
             // 
@@ -239,6 +213,7 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(268, 23);
             this.txtEmail.TabIndex = 17;
+            this.txtEmail.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValue_KeyPress);
             // 
             // label4
             // 
@@ -274,9 +249,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(534, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 15);
+            this.label1.Size = new System.Drawing.Size(56, 15);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Số điện thoại";
+            this.label1.Text = "Tìm kiếm";
             // 
             // dgvBookings
             // 
@@ -384,9 +359,6 @@
         private TextBox txtPhoneNumberSearch;
         private Label label1;
         private DataGridView dgvBookings;
-        private Button btnEdit;
-        private Button btnDelete;
-        private Button btnAdd;
         private DataGridViewTextBoxColumn BookingId;
         private DataGridViewTextBoxColumn CustomerName;
         private DataGridViewTextBoxColumn CustomerPhoneNumber;
