@@ -20,7 +20,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO
             App.ConfigureServices();
 
             ApplicationConfiguration.Initialize();
-            Application.Run(new Homepage());
+            Application.Run(new Login());
         }
     }
 }

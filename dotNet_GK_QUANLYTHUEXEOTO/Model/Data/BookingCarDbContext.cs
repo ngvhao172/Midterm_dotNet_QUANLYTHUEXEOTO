@@ -23,18 +23,20 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Model.Data
         public DbSet<Booking> Bookings { get; set; }
 
         public DbSet<Customer> Customers { get; set; }
-        public DbSet<Employee> Employees { get; set; }
-
+/*        public DbSet<Employee> Employees { get; set; }
+*/
         public DbSet<Account> Accounts { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=ADMINISTRATOR\SQLEXPRESS;Database=QLTHUEXEOTO;Trusted_Connection=True;TrustServerCertificate=True");
-
-            /*optionsBuilder.UseSqlServer(@"Server = ADMINISTRATOR\SQLEXPRESS;Database=QLTHUEXEOTO; Trusted_Connection=True, TrustedServerCertificate=True; Integrated Security=True"); */
+            optionsBuilder.UseSqlServer(@"Server=LAPTOP-6AR4KNHR\SQLEXPRESS;Database=QLTHUEXEOTO;Trusted_Connection=True;TrustServerCertificate=True");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Account>().HasData(
+            new Account { Email = "admin@gmail.com", Password = "admin" },
+            new Account { Email = "user@gmail.com", Password = "user" }
+            );
             modelBuilder.Entity<CarType>().HasData(
                 new CarType { Id = 1, Name = "4 chỗ (Mini)", RentPrice = 1000, CarImage = "../../../Resources/Images/CarTypes/MINI.png" },
                 new CarType { Id = 2, Name = "4 chỗ (Sedan)", RentPrice = 1200, CarImage = "../../../Resources/Images/CarTypes/SEDAN.png" },
@@ -78,6 +80,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Model.Data
                 new Fuel { Id = 2, Name = "Dầu Diesel", Price = 1500 },
                 new Fuel { Id = 3, Name = "Điện", Price = 2000 }
             );
+
         }
 
        /* public byte[] ImageToByteArray(string location)

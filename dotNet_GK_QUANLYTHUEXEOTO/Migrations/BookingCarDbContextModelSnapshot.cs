@@ -24,26 +24,30 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Migrations
 
             modelBuilder.Entity("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Account", b =>
                 {
-                    b.Property<string>("EmployeeEmail")
+                    b.Property<string>("Email")
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
-
-                    b.Property<int>("EmployeeId")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("Enable")
-                        .HasColumnType("bit");
 
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.HasKey("EmployeeEmail");
-
-                    b.HasIndex("EmployeeId");
+                    b.HasKey("Email");
 
                     b.ToTable("Accounts");
+
+                    b.HasData(
+                        new
+                        {
+                            Email = "admin@gmail.com",
+                            Password = "admin"
+                        },
+                        new
+                        {
+                            Email = "user@gmail.com",
+                            Password = "user"
+                        });
                 });
 
             modelBuilder.Entity("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Booking", b =>
@@ -317,42 +321,6 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Migrations
                     b.ToTable("Customers");
                 });
 
-            modelBuilder.Entity("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Employee", b =>
-                {
-                    b.Property<int>("EmployeeId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EmployeeId"));
-
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<DateTime>("Dob")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("EmployeeEmail")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<string>("FullName")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<string>("PhoneNumber")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.HasKey("EmployeeId");
-
-                    b.ToTable("Employees");
-                });
-
             modelBuilder.Entity("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Feature", b =>
                 {
                     b.Property<int>("Id")
@@ -506,17 +474,6 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Migrations
                             Name = "Điện",
                             Price = 2000.0
                         });
-                });
-
-            modelBuilder.Entity("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Account", b =>
-                {
-                    b.HasOne("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Employee", "Employee")
-                        .WithMany()
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Employee");
                 });
 
             modelBuilder.Entity("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Booking", b =>
