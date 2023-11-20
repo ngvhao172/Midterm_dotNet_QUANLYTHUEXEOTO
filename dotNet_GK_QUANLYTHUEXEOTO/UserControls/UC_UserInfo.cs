@@ -31,9 +31,9 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             this.carController = App.ServiceProvider.GetRequiredService<CarController>();
             InitializeComponent();
         }
-        private void UC_UserInfo_Load(object sender, EventArgs e)
+        private async void UC_UserInfo_Load(object sender, EventArgs e)
         {
-            List<Customer> customerList = customerController.GetAllCustomer();
+            List<Customer> customerList = await customerController.GetAllCustomer();
             /* foreach (Customer customer in customerList)
              {
                  dgvCustomers.Rows.Add(customer.FullName, customer.PhoneNumber, customer.CustomerEmail, customer.Address, customer.Dob.Date);
@@ -190,12 +190,12 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             }
         }
 
-        private void txtSearchPhoneNumber_TextChanged(object sender, EventArgs e)
+        private async void txtSearchPhoneNumber_TextChanged(object sender, EventArgs e)
         {
             string keyword = txtSearchPhoneNumber.Text.Trim().ToLower();
             List<Customer> searchResults = new List<Customer>();
 
-            List<Customer> customerList = customerController.GetAllCustomer();
+            List<Customer> customerList = await customerController.GetAllCustomer();
             if(keyword.Length > 0)
             {
                 foreach (Customer customer in customerList)

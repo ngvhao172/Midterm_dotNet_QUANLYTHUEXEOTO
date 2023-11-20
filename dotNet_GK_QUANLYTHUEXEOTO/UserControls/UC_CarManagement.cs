@@ -27,7 +27,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             InitializeComponent();
         }
 
-        private void UC_CarManagement_Load(object sender, EventArgs e)
+        private async void UC_CarManagement_Load(object sender, EventArgs e)
         {
             List<Car> carList = carController.GetAllCar();
             foreach (Car car in carList)
@@ -35,7 +35,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
                 dgvCars.Rows.Add(car.Id, car.CarType.Name, car.Manufacturer, car.Model, car.CarType.RentPrice, car.Status);
             }
 
-            var cartypes = cartypeController.GetAllCarTypes();
+            var cartypes = await cartypeController.GetAllCarTypes();
 
             //add models vào combobox
             var models = new HashSet<string>();

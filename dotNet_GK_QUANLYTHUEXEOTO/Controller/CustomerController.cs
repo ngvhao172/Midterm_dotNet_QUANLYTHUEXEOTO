@@ -17,9 +17,9 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Controller
             this.dbContext = dbContext;
         }
 
-        public List<Customer> GetAllCustomer()
+        public async Task<List<Customer>> GetAllCustomer()
         {
-            List<Customer> customers = dbContext.Customers.ToList();
+            List<Customer> customers = await dbContext.Customers.ToListAsync();
             return customers;
         }
         public async Task<Customer> AddCustomer(Customer customer)

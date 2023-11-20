@@ -26,7 +26,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
         private async void UC_ReportAndStatistic_Load(object sender, EventArgs e)
         {
             var carTypesList = cartypeController.GetAllCarTypes();
-            var bookings = bookingController.GetAllBookings();
+            var bookings = await bookingController.GetAllBookings();
             double total = 0;
             foreach (var booking in bookings)
             {
@@ -68,7 +68,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
         private async void showChartDataByMonths()
         {
             List<LineSeries<int>> listOfCarTypeStatistic = new List<LineSeries<int>>();
-            var listOfCartype = cartypeController.GetAllCarTypes();
+            var listOfCartype = await cartypeController.GetAllCarTypes();
             foreach (CarType cartype in listOfCartype)
             {
                 List<int> noOfBookings = await bookingController.GetNumberOfBookingsByCarTypesInMonths(cartype.Name);
@@ -165,7 +165,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
         private async void showChartDataByYears()
         {
             List<LineSeries<int>> listOfCarTypeStatistic = new List<LineSeries<int>>();
-            var listOfCartype = cartypeController.GetAllCarTypes();
+            var listOfCartype = await cartypeController.GetAllCarTypes();
             foreach (CarType cartype in listOfCartype)
             {
                 List<int> noOfBookings = await bookingController.GetNumberOfBookingsByCarTypesInYears(cartype.Name);
@@ -267,7 +267,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             chartForRevenue.ZoomMode = LiveChartsCore.Measure.ZoomAndPanMode.X;
         }
 
-            private void btnGetStatistic_Click(object sender, EventArgs e)
+        private async void btnGetStatistic_Click(object sender, EventArgs e)
         {
             string manufacturer = cbManufacturers.Text.Trim().ToString();
             string model = cbModels.Text.Trim().ToString();
@@ -275,7 +275,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             DateTime from = dtpDateFrom.Value;
             DateTime to = dtpDateTo.Value;
 
-            var bookings = bookingController.GetBookingsByConditions(manufacturer, model, from, to);
+            var bookings = await bookingController.GetBookingsByConditions(manufacturer, model, from, to);
             double total = 0;
             foreach (var booking in bookings)
             {

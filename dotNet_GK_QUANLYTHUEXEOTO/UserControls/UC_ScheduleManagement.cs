@@ -22,9 +22,9 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             this.bookingController = App.ServiceProvider.GetRequiredService<BookingController>();
         }
 
-        private void UC_ScheduleManagement_Load(object sender, EventArgs e)
+        private async void UC_ScheduleManagement_Load(object sender, EventArgs e)
         {
-            var bookingList = bookingController.GetAllBookingsRenting();
+            var bookingList = await bookingController.GetAllBookingsRenting();
 
             foreach (var booking in bookingList)
             {
@@ -49,12 +49,12 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             }
         }
 
-        private void txtSearch_TextChanged(object sender, EventArgs e)
+        private async void txtSearch_TextChanged(object sender, EventArgs e)
         {
             string keyword = txtSearch.Text.Trim().ToLower();
             List<Booking> searchResults = new List<Booking>();
 
-            var bookingList = bookingController.GetAllBookings();
+            var bookingList = await bookingController.GetAllBookings();
 
             if (keyword.Length > 0)
             {
@@ -110,10 +110,10 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             }
         }
 
-        private void btnRefresh_Click(object sender, EventArgs e)
+        private async void btnRefresh_Click(object sender, EventArgs e)
         {
             dgvBookings.Rows.Clear();
-            var bookingList = bookingController.GetAllBookingsRenting();
+            var bookingList = await bookingController.GetAllBookingsRenting();
 
             foreach (var booking in bookingList)
             {

@@ -16,9 +16,9 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Controller
         {
             this.dbContext = dbContext;
         }
-        public List<CarType> GetAllCarTypes()
+        public async Task<List<CarType>> GetAllCarTypes()
         {
-            var carTypes = dbContext.CarTypes.ToList();
+            var carTypes = await dbContext.CarTypes.ToListAsync();
             return carTypes;
         }
         public CarType GetCarTypeByName(string name)

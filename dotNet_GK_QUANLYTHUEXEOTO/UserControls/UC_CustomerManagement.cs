@@ -26,9 +26,9 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             InitializeComponent();
         }
 
-        private void UC_CustomerManagement_Load(object sender, EventArgs e)
+        private async void UC_CustomerManagement_Load(object sender, EventArgs e)
         {
-            List<Customer> customerList = customerController.GetAllCustomer();
+            List<Customer> customerList = await customerController.GetAllCustomer();
             foreach (Customer customer in customerList)
             {
                 dgvCustomers.Rows.Add(customer.FullName, customer.PhoneNumber, customer.CustomerEmail, customer.Address, customer.Dob.Date.ToShortDateString());
@@ -41,13 +41,13 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             btnEdit.Enabled = b;
         }
 
-        private void txtSearch_TextChanged(object sender, EventArgs e)
+        private async void txtSearch_TextChanged(object sender, EventArgs e)
         {
             string keyword = txtSearch.Text.Trim().ToLower();
 
             List<Customer> searchResults = new List<Customer>();
 
-            List<Customer> customerList = customerController.GetAllCustomer();
+            List<Customer> customerList = await customerController.GetAllCustomer();
 
             if (keyword.Length > 0)
             {
