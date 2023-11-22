@@ -1,20 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\dotNet\\Midterm\\Midterm_dotNet_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO.csproj": {}
+    "C:\\Users\\PHAM NHAT QUYNH\\Desktop\\VS\\VSCode\\VScode\\Net\\Midterm_dotNet_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO.csproj": {}
   },
   "projects": {
-    "D:\\Code\\dotNet\\Midterm\\Midterm_dotNet_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO.csproj": {
+    "C:\\Users\\PHAM NHAT QUYNH\\Desktop\\VS\\VSCode\\VScode\\Net\\Midterm_dotNet_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\dotNet\\Midterm\\Midterm_dotNet_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO.csproj",
+        "projectUniqueName": "C:\\Users\\PHAM NHAT QUYNH\\Desktop\\VS\\VSCode\\VScode\\Net\\Midterm_dotNet_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO.csproj",
         "projectName": "dotNet_GK_QUANLYTHUEXEOTO",
-        "projectPath": "D:\\Code\\dotNet\\Midterm\\Midterm_dotNet_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\dotNet\\Midterm\\Midterm_dotNet_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\obj\\",
+        "projectPath": "C:\\Users\\PHAM NHAT QUYNH\\Desktop\\VS\\VSCode\\VScode\\Net\\Midterm_dotNet_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO.csproj",
+        "packagesPath": "C:\\Users\\PHAM NHAT QUYNH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PHAM NHAT QUYNH\\Desktop\\VS\\VSCode\\VScode\\Net\\Midterm_dotNet_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PHAM NHAT QUYNH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +28,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +55,10 @@
               "target": "Package",
               "version": "[2.0.0-rc2, )"
             },
+            "Microsoft.AspNet.Identity.Core": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.12, )"
@@ -61,6 +72,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.12, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[6.0.25, )"
             }
           },
           "imports": [
@@ -82,7 +97,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -18,6 +18,8 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
     public partial class UC_CustomerManagement : UserControl
     {
         private CustomerController customerController;
+        public string email { get; set; }
+
         public UC_CustomerManagement()
         {
             OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
@@ -34,6 +36,17 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
                 dgvCustomers.Rows.Add(customer.FullName, customer.PhoneNumber, customer.CustomerEmail, customer.Address, customer.Dob.Date.ToShortDateString());
             }
             disableInput(false);
+            if (email != "admin@gmail.com")
+            {
+                HideAllButtons();
+                return;
+            }
+        }
+
+        private void HideAllButtons()
+        {
+            btnDelete.Visible = false;
+            btnEdit.Visible = false;
         }
         private void disableInput(bool b)
         {

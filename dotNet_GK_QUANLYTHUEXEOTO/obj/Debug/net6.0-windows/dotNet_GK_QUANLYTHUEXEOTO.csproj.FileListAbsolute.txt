@@ -321,3 +321,7 @@ D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\
 D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.pdb
 D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.genruntimeconfig.cache
 D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\ref\dotNet_GK_QUANLYTHUEXEOTO.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.AspNet.Identity.Core.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Identity.Core.dll

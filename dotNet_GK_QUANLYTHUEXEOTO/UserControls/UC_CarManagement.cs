@@ -19,6 +19,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
     {
         private CarController carController;
         private CarTypesController cartypeController;
+        public string email { get; set; }
 
         public UC_CarManagement()
         {
@@ -49,8 +50,21 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             }
             disableInput(false);
 
-        }
+            if (email != "admin@gmail.com")
+            {
+                HideAllButtons();
+                return;
+            }
 
+        }
+        private void HideAllButtons()
+        {
+            btnAdd.Visible = false;
+            btnDelete.Visible = false;
+            btnEdit.Visible = false;
+            btnExcel.Visible = false;
+            lbl_excel.Visible = false;
+        }
         private void txtCarIdSearch_TextChanged(object sender, EventArgs e)
         {
             string keyword = txtCarIdSearch.Text.Trim().ToLower();

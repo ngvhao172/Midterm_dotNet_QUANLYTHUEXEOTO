@@ -37,6 +37,8 @@
             this.RentPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnExcel = new System.Windows.Forms.Button();
+            this.lbl_excel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtRentPrice = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -52,8 +54,6 @@
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.btnExcel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCars)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -128,7 +128,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.btnExcel);
-            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.lbl_excel);
             this.groupBox2.Controls.Add(this.txtCarIdSearch);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.dgvCars);
@@ -140,6 +140,26 @@
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách xe";
+            // 
+            // btnExcel
+            // 
+            this.btnExcel.Location = new System.Drawing.Point(846, 26);
+            this.btnExcel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnExcel.Name = "btnExcel";
+            this.btnExcel.Size = new System.Drawing.Size(86, 31);
+            this.btnExcel.TabIndex = 23;
+            this.btnExcel.Text = "Excel";
+            this.btnExcel.UseVisualStyleBackColor = true;
+            this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
+            // 
+            // lbl_excel
+            // 
+            this.lbl_excel.AutoSize = true;
+            this.lbl_excel.Location = new System.Drawing.Point(738, 35);
+            this.lbl_excel.Name = "lbl_excel";
+            this.lbl_excel.Size = new System.Drawing.Size(102, 20);
+            this.lbl_excel.TabIndex = 6;
+            this.lbl_excel.Text = "Nhập thêm xe";
             // 
             // label1
             // 
@@ -293,26 +313,6 @@
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(738, 35);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(102, 20);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Nhập thêm xe";
-            // 
-            // btnExcel
-            // 
-            this.btnExcel.Location = new System.Drawing.Point(846, 26);
-            this.btnExcel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnExcel.Name = "btnExcel";
-            this.btnExcel.Size = new System.Drawing.Size(86, 31);
-            this.btnExcel.TabIndex = 23;
-            this.btnExcel.Text = "Excel";
-            this.btnExcel.UseVisualStyleBackColor = true;
-            this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
-            // 
             // UC_CarManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -359,6 +359,6 @@
         private DataGridViewTextBoxColumn Status;
         private ComboBox cbCarType;
         private Button btnExcel;
-        private Label label7;
+        private Label lbl_excel;
     }
 }

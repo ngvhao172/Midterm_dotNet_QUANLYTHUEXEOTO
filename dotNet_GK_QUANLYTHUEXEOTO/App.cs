@@ -21,6 +21,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO
             serviceCollection.AddTransient<BookingController>();
             serviceCollection.AddTransient<CustomerController>();
             serviceCollection.AddTransient<BookingCarDbContext>();
+            serviceCollection.AddTransient<AccountController>();
 
             ServiceProvider = serviceCollection.BuildServiceProvider();
         }
