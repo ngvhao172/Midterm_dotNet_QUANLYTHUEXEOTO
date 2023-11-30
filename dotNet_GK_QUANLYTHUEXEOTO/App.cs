@@ -14,13 +14,14 @@ namespace dotNet_GK_QUANLYTHUEXEOTO
         {
             var serviceCollection = new ServiceCollection();
 
+            serviceCollection.AddScoped<BookingCarDbContext>();
             serviceCollection.AddSingleton<CarTypesController>();
             serviceCollection.AddSingleton<CarController>();
             serviceCollection.AddSingleton<FeatureController>();
             serviceCollection.AddSingleton<FuelController>();
             serviceCollection.AddSingleton<BookingController>();
             serviceCollection.AddSingleton<CustomerController>();
-            serviceCollection.AddSingleton<BookingCarDbContext>();
+            serviceCollection.AddSingleton<AccountController>();
 
             ServiceProvider = serviceCollection.BuildServiceProvider();
         }

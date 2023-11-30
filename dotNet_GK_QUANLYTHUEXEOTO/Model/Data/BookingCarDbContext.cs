@@ -29,12 +29,19 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Model.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=ADMINISTRATOR\SQLEXPRESS;Database=QLTHUEXEOTO;Trusted_Connection=True;TrustServerCertificate=True");
-
-            /*optionsBuilder.UseSqlServer(@"Server = ADMINISTRATOR\SQLEXPRESS;Database=QLTHUEXEOTO; Trusted_Connection=True, TrustedServerCertificate=True; Integrated Security=True"); */
+            optionsBuilder.UseSqlServer(@"Server=ADMINISTRATOR\SQLEXPRESS;Database=QLTHUEXEOTO;Trusted_Connection=True;TrustServerCertificate=True; MultipleActiveResultSets=true");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Employee>().HasData(
+               new Employee { EmployeeId = 1, FullName = "Admin", EmployeeEmail = "admin@gmail.com", PhoneNumber = "0123456789", Address = "Hue" },
+               new Employee { EmployeeId = 2, FullName = "User", EmployeeEmail = "user@gmail.com", PhoneNumber = "0987654321", Address = "Quang Nam" }
+            );
+
+            modelBuilder.Entity<Account>().HasData(
+            new Account { EmployeeEmail = "admin@gmail.com", Password = "admin", EmployeeId = 1 },
+            new Account { EmployeeEmail = "user@gmail.com", Password = "user", EmployeeId = 2 }
+            );
             modelBuilder.Entity<CarType>().HasData(
                 new CarType { Id = 1, Name = "4 chỗ (Mini)", RentPrice = 1000, CarImage = "../../../Resources/Images/CarTypes/MINI.png" },
                 new CarType { Id = 2, Name = "4 chỗ (Sedan)", RentPrice = 1200, CarImage = "../../../Resources/Images/CarTypes/SEDAN.png" },
@@ -78,6 +85,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Model.Data
                 new Fuel { Id = 2, Name = "Dầu Diesel", Price = 1500 },
                 new Fuel { Id = 3, Name = "Điện", Price = 2000 }
             );
+
         }
 
        /* public byte[] ImageToByteArray(string location)

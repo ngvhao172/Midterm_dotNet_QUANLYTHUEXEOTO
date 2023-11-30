@@ -14,11 +14,9 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Model.Domain
         [Required(ErrorMessage = "Please input email")]
         [EmailAddress(ErrorMessage = "Invalid Email.")]
         public string EmployeeEmail { get; set; }
+
         [MaxLength(100), Required(ErrorMessage = "Please input password")]
         public string Password { get; set; }
-
-        [Required]
-        public bool Enable { get; set; } = true;
 
         [Required, ForeignKey("Employee")]
         public int EmployeeId { get; set; }

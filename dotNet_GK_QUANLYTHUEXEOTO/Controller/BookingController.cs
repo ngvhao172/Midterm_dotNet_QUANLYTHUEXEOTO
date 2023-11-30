@@ -21,14 +21,14 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Controller
             await dbContext.Bookings.AddAsync(booking);
             await dbContext.SaveChangesAsync();
         }
-        public List<Booking> GetAllBookingsRenting()
+        public async Task<List<Booking>> GetAllBookingsRenting()
         {
-            var bookings = dbContext.Bookings.Where(b => b.Status == Model.Enum.BookingStatus.Renting).Include(c => c.Customer).Include(c => c.Car).ThenInclude(c => c.CarType).ToList();
+            var bookings = await dbContext.Bookings.Where(b => b.Status == Model.Enum.BookingStatus.Renting).Include(c => c.Customer).Include(c => c.Car).ThenInclude(c => c.CarType).ToListAsync();
             return bookings;
         }
-        public List<Booking> GetAllBookings()
+        public async Task<List<Booking>> GetAllBookings()
         {
-            var bookings = dbContext.Bookings.Include(c => c.Customer).Include(c => c.Car).ThenInclude(c => c.CarType).ToList();
+            var bookings = await dbContext.Bookings.Include(c => c.Customer).Include(c => c.Car).ThenInclude(c => c.CarType).ToListAsync();
             return bookings;
         }
 
@@ -44,9 +44,9 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Controller
             await dbContext.SaveChangesAsync();
         }
 
-        public List<Booking> GetBookingsByConditions(string manufacturer, string model, DateTime? from, DateTime? to)
+        public async Task<List<Booking>> GetBookingsByConditions(string manufacturer, string model, DateTime? from, DateTime? to)
         {
-            var bookings = dbContext.Bookings
+            var bookings = await dbContext.Bookings
                 .Include(b => b.Car)
                 .Where(b =>
                     (b.FromDate <= from && b.ToDate >= to) ||
@@ -55,7 +55,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Controller
                 .Where(b =>
                     (string.IsNullOrEmpty(manufacturer) || b.Car != null && b.Car.Manufacturer == manufacturer) &&
                     (string.IsNullOrEmpty(model) || b.Car != null && b.Car.Model == model))
-                .ToList();
+                .ToListAsync();
 
             return bookings;
         }

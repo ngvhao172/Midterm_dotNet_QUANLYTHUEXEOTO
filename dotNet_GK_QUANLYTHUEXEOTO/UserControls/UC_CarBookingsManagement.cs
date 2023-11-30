@@ -23,10 +23,10 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             this.bookingController = App.ServiceProvider.GetRequiredService<BookingController>();
         }
         
-        private void UC_CarBookingsManagement_Load(object sender, EventArgs e)
+        private async void UC_CarBookingsManagement_Load(object sender, EventArgs e)
         {
             
-            var bookingList = bookingController.GetAllBookings();
+            var bookingList = await bookingController.GetAllBookings();
 
             foreach (var booking in bookingList)
             {
@@ -65,12 +65,12 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             }
         }
 
-        private void txtPhoneNumberSearch_TextChanged(object sender, EventArgs e)
+        private async void txtPhoneNumberSearch_TextChanged(object sender, EventArgs e)
         {
             string keyword = txtPhoneNumberSearch.Text.Trim().ToLower();
             List<Booking> searchResults = new List<Booking>();
 
-            var bookingList = bookingController.GetAllBookings();
+            var bookingList = await bookingController.GetAllBookings();
 
             if (keyword.Length > 0)
             {

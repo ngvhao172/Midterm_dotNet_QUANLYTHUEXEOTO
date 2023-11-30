@@ -31,9 +31,10 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Model.Domain
         [Required]
         public BookingStatus Status { get; set; }
 
+        public ICollection<Feature> Features { get; set; }
+
         public Customer Customer { get; set; }
         public Car Car { get; set; }
-        public List<Feature> Features { get; set; }
         public Fuel Fuel { get; set; }
     }
 }

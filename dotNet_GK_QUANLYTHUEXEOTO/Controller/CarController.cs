@@ -43,5 +43,30 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Controller
             dbContext.Cars.Update(car);
             await dbContext.SaveChangesAsync();
         }
+        public async Task<Car> DeleteCar(Car car)
+        {
+            var existedBooking = await dbContext.Bookings.Where(c => c.CarId == car.Id).FirstOrDefaultAsync();
+            if (existedBooking==null)
+            {
+                dbContext.Cars.Remove(car);
+                await dbContext.SaveChangesAsync();
+                return car;
+            }
+            return null;
+        }
+        public async Task<Car> AddCar(Car car)
+        {
+            var existedCar = await dbContext.Cars.Where(c => c.Id == car.Id).FirstOrDefaultAsync();
+            if (existedCar == null)
+            {
+                await dbContext.Cars.AddAsync(car);
+                await dbContext.SaveChangesAsync();
+                return car;
+            }
+            return null;
+
+        }
+
+
     }
 }

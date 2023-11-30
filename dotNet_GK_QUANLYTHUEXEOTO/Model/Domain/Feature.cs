@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace dotNet_GK_QUANLYTHUEXEOTO.Model.Domain
 {
@@ -13,5 +13,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Model.Domain
 
         [Required, MaxLength(100)]
         public double Price { get; set; }
+
+        public ICollection<Booking> bookings { get; set; }
     }
 }

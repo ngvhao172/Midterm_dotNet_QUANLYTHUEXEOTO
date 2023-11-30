@@ -22,6 +22,21 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("BookingFeature", b =>
+                {
+                    b.Property<int>("FeaturesId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("bookingsId")
+                        .HasColumnType("int");
+
+                    b.HasKey("FeaturesId", "bookingsId");
+
+                    b.HasIndex("bookingsId");
+
+                    b.ToTable("BookingFeature");
+                });
+
             modelBuilder.Entity("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Account", b =>
                 {
                     b.Property<string>("EmployeeEmail")
@@ -30,9 +45,6 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Migrations
 
                     b.Property<int>("EmployeeId")
                         .HasColumnType("int");
-
-                    b.Property<bool>("Enable")
-                        .HasColumnType("bit");
 
                     b.Property<string>("Password")
                         .IsRequired()
@@ -44,6 +56,20 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Migrations
                     b.HasIndex("EmployeeId");
 
                     b.ToTable("Accounts");
+
+                    b.HasData(
+                        new
+                        {
+                            EmployeeEmail = "admin@gmail.com",
+                            EmployeeId = 1,
+                            Password = "admin"
+                        },
+                        new
+                        {
+                            EmployeeEmail = "user@gmail.com",
+                            EmployeeId = 2,
+                            Password = "user"
+                        });
                 });
 
             modelBuilder.Entity("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Booking", b =>
@@ -351,6 +377,26 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Migrations
                     b.HasKey("EmployeeId");
 
                     b.ToTable("Employees");
+
+                    b.HasData(
+                        new
+                        {
+                            EmployeeId = 1,
+                            Address = "Hue",
+                            Dob = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EmployeeEmail = "admin@gmail.com",
+                            FullName = "Admin",
+                            PhoneNumber = "0123456789"
+                        },
+                        new
+                        {
+                            EmployeeId = 2,
+                            Address = "Quang Nam",
+                            Dob = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EmployeeEmail = "user@gmail.com",
+                            FullName = "User",
+                            PhoneNumber = "0987654321"
+                        });
                 });
 
             modelBuilder.Entity("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Feature", b =>
@@ -360,9 +406,6 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int?>("BookingId")
-                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -374,8 +417,6 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Migrations
                         .HasColumnType("float");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("BookingId");
 
                     b.ToTable("Features");
 
@@ -508,6 +549,21 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Migrations
                         });
                 });
 
+            modelBuilder.Entity("BookingFeature", b =>
+                {
+                    b.HasOne("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Feature", null)
+                        .WithMany()
+                        .HasForeignKey("FeaturesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Booking", null)
+                        .WithMany()
+                        .HasForeignKey("bookingsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Account", b =>
                 {
                     b.HasOne("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Employee", "Employee")
@@ -555,18 +611,6 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Migrations
                         .IsRequired();
 
                     b.Navigation("CarType");
-                });
-
-            modelBuilder.Entity("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Feature", b =>
-                {
-                    b.HasOne("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Booking", null)
-                        .WithMany("Features")
-                        .HasForeignKey("BookingId");
-                });
-
-            modelBuilder.Entity("dotNet_GK_QUANLYTHUEXEOTO.Model.Domain.Booking", b =>
-                {
-                    b.Navigation("Features");
                 });
 #pragma warning restore 612, 618
         }

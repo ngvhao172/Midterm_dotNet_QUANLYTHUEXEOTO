@@ -17,9 +17,9 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Controller
             this.dbContext = dbContext;
         }
 
-        public List<Customer> GetAllCustomer()
+        public async Task<List<Customer>> GetAllCustomer()
         {
-            List<Customer> customers = dbContext.Customers.ToList();
+            List<Customer> customers = await dbContext.Customers.ToListAsync();
             return customers;
         }
         public async Task<Customer> AddCustomer(Customer customer)
@@ -35,7 +35,16 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Controller
             return null;
 
         }
-
+        public async Task UpdateCustomer(Customer customer)
+        {
+            dbContext.Customers.Update(customer);
+            await dbContext.SaveChangesAsync();
+        }
+        public async Task DeleteCustomer(Customer customer)
+        {
+            dbContext.Customers.Remove(customer);
+            await dbContext.SaveChangesAsync();
+        }
         public async Task<Customer> GetCustomerByPhoneNumber(string phoneNumber)
         {
             var existedCustomer = await dbContext.Customers.Where(c => c.PhoneNumber == phoneNumber).FirstOrDefaultAsync();

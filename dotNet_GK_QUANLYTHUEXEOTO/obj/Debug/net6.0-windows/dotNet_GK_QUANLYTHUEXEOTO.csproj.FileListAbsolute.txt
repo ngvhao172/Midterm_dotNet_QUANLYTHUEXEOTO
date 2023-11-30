@@ -108,3 +108,239 @@ D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\D
 D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\OpenTK.GLControl.dll
 D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\SkiaSharp.Views.Desktop.Common.dll
 D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\SkiaSharp.Views.WindowsForms.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.exe
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.deps.json
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.runtimeconfig.json
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.pdb
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\HarfBuzzSharp.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\LiveChartsCore.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\LiveChartsCore.SkiaSharpView.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\LiveChartsCore.SkiaSharpView.WinForms.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\OpenTK.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\OpenTK.GLControl.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\SkiaSharp.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\SkiaSharp.HarfBuzz.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\SkiaSharp.Views.Desktop.Common.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\SkiaSharp.Views.WindowsForms.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.csproj.AssemblyReference.cache
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.Homepage.resources
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.Properties.Resources.resources
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_CarBookingsManagement.resources
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_CarManagement.resources
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_CarTypeSelection.resources
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_ConfirmPayment.resources
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_CustomerManagement.resources
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_Homepage.resources
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_RentCar.resources
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_ReportAndStatistic.resources
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_ScheduleManagement.resources
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_UserInfo.resources
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.csproj.GenerateResource.cache
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.AssemblyInfoInputs.cache
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.AssemblyInfo.cs
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.csproj.CoreCompileInputs.cache
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.csproj.CopyComplete
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\refint\dotNet_GK_QUANLYTHUEXEOTO.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.pdb
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.genruntimeconfig.cache
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\ref\dotNet_GK_QUANLYTHUEXEOTO.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\EPPlus.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\EPPlus.Interfaces.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\EPPlus.System.Drawing.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.csproj.ResolveComReference.cache
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.Login.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.exe
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.deps.json
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.runtimeconfig.json
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.pdb
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\EPPlus.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\EPPlus.Interfaces.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\EPPlus.System.Drawing.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\HarfBuzzSharp.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Humanizer.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\LiveChartsCore.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\LiveChartsCore.SkiaSharpView.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\LiveChartsCore.SkiaSharpView.WinForms.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\OpenTK.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\OpenTK.GLControl.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\SkiaSharp.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\SkiaSharp.HarfBuzz.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\SkiaSharp.Views.Desktop.Common.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\SkiaSharp.Views.WindowsForms.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\System.Text.Json.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\osx\native\libHarfBuzzSharp.dylib
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-x64\native\libHarfBuzzSharp.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-x86\native\libHarfBuzzSharp.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.csproj.AssemblyReference.cache
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.csproj.ResolveComReference.cache
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.Homepage.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.Login.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.Properties.Resources.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_CarBookingsManagement.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_CarManagement.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_CarTypeSelection.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_ConfirmPayment.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_CustomerManagement.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_Homepage.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_RentCar.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_ReportAndStatistic.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_ScheduleManagement.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_UserInfo.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.csproj.GenerateResource.cache
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.AssemblyInfoInputs.cache
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.AssemblyInfo.cs
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.csproj.CoreCompileInputs.cache
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.sourcelink.json
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.csproj.CopyComplete
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\refint\dotNet_GK_QUANLYTHUEXEOTO.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.pdb
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.genruntimeconfig.cache
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\ref\dotNet_GK_QUANLYTHUEXEOTO.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.AspNet.Identity.Core.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\PHAM NHAT QUYNH\Desktop\VS\VSCode\VScode\Net\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Identity.Core.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\EPPlus.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\EPPlus.Interfaces.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\EPPlus.System.Drawing.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.AspNet.Identity.Core.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Identity.Core.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.csproj.ResolveComReference.cache
+D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.Login.resources

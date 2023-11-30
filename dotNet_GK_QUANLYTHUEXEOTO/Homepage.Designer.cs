@@ -30,7 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Homepage));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.btn_Logout = new System.Windows.Forms.Button();
+            this.txtName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -50,7 +51,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.RosyBrown;
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.btn_Logout);
+            this.panel1.Controls.Add(this.txtName);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -59,15 +61,29 @@
             this.panel1.Size = new System.Drawing.Size(1404, 80);
             this.panel1.TabIndex = 0;
             // 
-            // label2
+            // btn_Logout
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(1248, 31);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(139, 22);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Xin chào Hào!";
+            this.btn_Logout.BackColor = System.Drawing.Color.DarkRed;
+            this.btn_Logout.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_Logout.ForeColor = System.Drawing.Color.Snow;
+            this.btn_Logout.Location = new System.Drawing.Point(1250, 24);
+            this.btn_Logout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_Logout.Name = "btn_Logout";
+            this.btn_Logout.Size = new System.Drawing.Size(114, 33);
+            this.btn_Logout.TabIndex = 6;
+            this.btn_Logout.Text = "Đăng xuất";
+            this.btn_Logout.UseVisualStyleBackColor = false;
+            this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click_1);
+            // 
+            // txtName
+            // 
+            this.txtName.AutoSize = true;
+            this.txtName.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtName.Location = new System.Drawing.Point(1019, 28);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(139, 22);
+            this.txtName.TabIndex = 2;
+            this.txtName.Text = "Xin chào Hào!";
             // 
             // label1
             // 
@@ -218,7 +234,7 @@
         #endregion
 
         private Panel panel1;
-        private Label label2;
+        private Label txtName;
         private Label label1;
         private PictureBox pictureBox1;
         private Panel panel2;
@@ -230,5 +246,6 @@
         private Button btnCarManagement;
         private Button btnCarOrders;
         private Panel panelContainer;
+        private Button btn_Logout;
     }
 }
