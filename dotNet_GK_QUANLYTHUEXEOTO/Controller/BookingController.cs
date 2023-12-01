@@ -1,6 +1,7 @@
 ﻿using dotNet_GK_QUANLYTHUEXEOTO.Model.Data;
 using dotNet_GK_QUANLYTHUEXEOTO.Model.Domain;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Controller
         }
         public async Task AddBooking(Booking booking)
         {
-            await dbContext.Bookings.AddAsync(booking);
+            dbContext.Bookings.Add(booking);
             await dbContext.SaveChangesAsync();
         }
         public async Task<List<Booking>> GetAllBookingsRenting()

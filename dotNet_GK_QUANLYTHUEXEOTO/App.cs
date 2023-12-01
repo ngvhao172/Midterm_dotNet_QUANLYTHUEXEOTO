@@ -14,7 +14,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO
         {
             var serviceCollection = new ServiceCollection();
 
-            serviceCollection.AddScoped<BookingCarDbContext>();
+            serviceCollection.AddSingleton<BookingCarDbContext>();
             serviceCollection.AddSingleton<CarTypesController>();
             serviceCollection.AddSingleton<CarController>();
             serviceCollection.AddSingleton<FeatureController>();

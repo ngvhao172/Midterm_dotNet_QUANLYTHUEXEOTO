@@ -25,7 +25,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
 
         private async void UC_ReportAndStatistic_Load(object sender, EventArgs e)
         {
-            var carTypesList = cartypeController.GetAllCarTypes();
+       /*     var carTypesList = cartypeController.GetAllCarTypes();*/
             var bookings = await bookingController.GetAllBookings();
             double total = 0;
             foreach (var booking in bookings)
