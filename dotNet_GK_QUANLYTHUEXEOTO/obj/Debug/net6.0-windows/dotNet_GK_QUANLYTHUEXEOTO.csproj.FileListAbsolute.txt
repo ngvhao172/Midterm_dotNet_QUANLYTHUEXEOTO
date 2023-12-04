@@ -344,3 +344,9 @@ D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\D
 D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
 D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.csproj.ResolveComReference.cache
 D:\Code\dotNet\Midterm\dotNet_GK_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.Login.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.AspNet.Identity.Core.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\bin\Debug\net6.0-windows\Microsoft.Extensions.Identity.Core.dll
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_Invoice.resources
+D:\Code\dotNet\Midterm\Midterm_dotNet_QUANLYTHUEXEOTO\dotNet_GK_QUANLYTHUEXEOTO\obj\Debug\net6.0-windows\dotNet_GK_QUANLYTHUEXEOTO.UserControls.UC_InvoiceDetail.resources

@@ -28,156 +28,211 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgvBookingDetail = new System.Windows.Forms.DataGridView();
-            this.Feature = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnConfirm = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.txtCustomerFullName = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtCarId = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtPhoneNumber = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtCarType = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvBookingDetail)).BeginInit();
-            this.SuspendLayout();
+            dgvBookingDetail = new DataGridView();
+            Feature = new DataGridViewTextBoxColumn();
+            Price = new DataGridViewTextBoxColumn();
+            btnConfirm = new Button();
+            btnCancel = new Button();
+            txtCustomerFullName = new TextBox();
+            label1 = new Label();
+            label2 = new Label();
+            txtCarId = new TextBox();
+            label3 = new Label();
+            txtPhoneNumber = new TextBox();
+            label4 = new Label();
+            txtCarType = new TextBox();
+            label5 = new Label();
+            txtPaidDay = new TextBox();
+            label6 = new Label();
+            txtRentDay = new TextBox();
+            ((System.ComponentModel.ISupportInitialize)dgvBookingDetail).BeginInit();
+            SuspendLayout();
             // 
             // dgvBookingDetail
             // 
-            this.dgvBookingDetail.AllowUserToAddRows = false;
-            this.dgvBookingDetail.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvBookingDetail.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBookingDetail.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Feature,
-            this.Price});
-            this.dgvBookingDetail.Location = new System.Drawing.Point(13, 114);
-            this.dgvBookingDetail.Name = "dgvBookingDetail";
-            this.dgvBookingDetail.RowTemplate.Height = 25;
-            this.dgvBookingDetail.Size = new System.Drawing.Size(664, 414);
-            this.dgvBookingDetail.TabIndex = 0;
+            dgvBookingDetail.AllowUserToAddRows = false;
+            dgvBookingDetail.AllowUserToDeleteRows = false;
+            dgvBookingDetail.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvBookingDetail.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvBookingDetail.Columns.AddRange(new DataGridViewColumn[] { Feature, Price });
+            dgvBookingDetail.Location = new Point(15, 152);
+            dgvBookingDetail.Margin = new Padding(3, 4, 3, 4);
+            dgvBookingDetail.Name = "dgvBookingDetail";
+            dgvBookingDetail.ReadOnly = true;
+            dgvBookingDetail.RowHeadersWidth = 51;
+            dgvBookingDetail.RowTemplate.Height = 25;
+            dgvBookingDetail.Size = new Size(759, 474);
+            dgvBookingDetail.TabIndex = 0;
             // 
             // Feature
             // 
-            this.Feature.HeaderText = "Tính năng";
-            this.Feature.Name = "Feature";
+            Feature.HeaderText = "Tính năng";
+            Feature.MinimumWidth = 6;
+            Feature.Name = "Feature";
+            Feature.ReadOnly = true;
             // 
             // Price
             // 
-            this.Price.HeaderText = "Giá";
-            this.Price.Name = "Price";
+            Price.HeaderText = "Giá";
+            Price.MinimumWidth = 6;
+            Price.Name = "Price";
+            Price.ReadOnly = true;
             // 
             // btnConfirm
             // 
-            this.btnConfirm.Location = new System.Drawing.Point(445, 548);
-            this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(126, 38);
-            this.btnConfirm.TabIndex = 1;
-            this.btnConfirm.Text = "Xác nhận thanh toán";
-            this.btnConfirm.UseVisualStyleBackColor = true;
-            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
+            btnConfirm.Location = new Point(509, 658);
+            btnConfirm.Margin = new Padding(3, 4, 3, 4);
+            btnConfirm.Name = "btnConfirm";
+            btnConfirm.Size = new Size(144, 51);
+            btnConfirm.TabIndex = 1;
+            btnConfirm.Text = "Xác nhận thanh toán";
+            btnConfirm.UseVisualStyleBackColor = true;
+            btnConfirm.Click += btnConfirm_Click;
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(586, 548);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(91, 38);
-            this.btnCancel.TabIndex = 2;
-            this.btnCancel.Text = "Hủy";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            btnCancel.Location = new Point(670, 658);
+            btnCancel.Margin = new Padding(3, 4, 3, 4);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(104, 51);
+            btnCancel.TabIndex = 2;
+            btnCancel.Text = "Hủy";
+            btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // txtCustomerFullName
             // 
-            this.txtCustomerFullName.Location = new System.Drawing.Point(105, 23);
-            this.txtCustomerFullName.Name = "txtCustomerFullName";
-            this.txtCustomerFullName.Size = new System.Drawing.Size(174, 23);
-            this.txtCustomerFullName.TabIndex = 3;
-            this.txtCustomerFullName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValue_KeyPress);
+            txtCustomerFullName.Location = new Point(120, 15);
+            txtCustomerFullName.Margin = new Padding(3, 4, 3, 4);
+            txtCustomerFullName.Name = "txtCustomerFullName";
+            txtCustomerFullName.Size = new Size(198, 27);
+            txtCustomerFullName.TabIndex = 3;
+            txtCustomerFullName.KeyPress += txtValue_KeyPress;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 15);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Khách hàng";
+            label1.AutoSize = true;
+            label1.Location = new Point(15, 19);
+            label1.Name = "label1";
+            label1.Size = new Size(86, 20);
+            label1.TabIndex = 4;
+            label1.Text = "Khách hàng";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 68);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 15);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Biển số xe";
+            label2.AutoSize = true;
+            label2.Location = new Point(15, 69);
+            label2.Name = "label2";
+            label2.Size = new Size(76, 20);
+            label2.TabIndex = 6;
+            label2.Text = "Biển số xe";
             // 
             // txtCarId
             // 
-            this.txtCarId.Location = new System.Drawing.Point(105, 65);
-            this.txtCarId.Name = "txtCarId";
-            this.txtCarId.Size = new System.Drawing.Size(174, 23);
-            this.txtCarId.TabIndex = 5;
-            this.txtCarId.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValue_KeyPress);
+            txtCarId.Location = new Point(120, 65);
+            txtCarId.Margin = new Padding(3, 4, 3, 4);
+            txtCarId.Name = "txtCarId";
+            txtCarId.Size = new Size(198, 27);
+            txtCarId.TabIndex = 5;
+            txtCarId.KeyPress += txtValue_KeyPress;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(318, 29);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 15);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Số điện thoại";
+            label3.AutoSize = true;
+            label3.Location = new Point(363, 23);
+            label3.Name = "label3";
+            label3.Size = new Size(97, 20);
+            label3.TabIndex = 8;
+            label3.Text = "Số điện thoại";
             // 
             // txtPhoneNumber
             // 
-            this.txtPhoneNumber.Location = new System.Drawing.Point(418, 26);
-            this.txtPhoneNumber.Name = "txtPhoneNumber";
-            this.txtPhoneNumber.Size = new System.Drawing.Size(174, 23);
-            this.txtPhoneNumber.TabIndex = 7;
-            this.txtPhoneNumber.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValue_KeyPress);
+            txtPhoneNumber.Location = new Point(478, 19);
+            txtPhoneNumber.Margin = new Padding(3, 4, 3, 4);
+            txtPhoneNumber.Name = "txtPhoneNumber";
+            txtPhoneNumber.Size = new Size(198, 27);
+            txtPhoneNumber.TabIndex = 7;
+            txtPhoneNumber.KeyPress += txtValue_KeyPress;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(318, 68);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 15);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Loại xe";
+            label4.AutoSize = true;
+            label4.Location = new Point(363, 69);
+            label4.Name = "label4";
+            label4.Size = new Size(56, 20);
+            label4.TabIndex = 10;
+            label4.Text = "Loại xe";
             // 
             // txtCarType
             // 
-            this.txtCarType.Location = new System.Drawing.Point(418, 65);
-            this.txtCarType.Name = "txtCarType";
-            this.txtCarType.Size = new System.Drawing.Size(174, 23);
-            this.txtCarType.TabIndex = 9;
-            this.txtCarType.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValue_KeyPress);
+            txtCarType.Location = new Point(478, 65);
+            txtCarType.Margin = new Padding(3, 4, 3, 4);
+            txtCarType.Name = "txtCarType";
+            txtCarType.Size = new Size(198, 27);
+            txtCarType.TabIndex = 9;
+            txtCarType.KeyPress += txtValue_KeyPress;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(363, 116);
+            label5.Name = "label5";
+            label5.Size = new Size(66, 20);
+            label5.TabIndex = 14;
+            label5.Text = "Ngày trả";
+            // 
+            // txtPaidDay
+            // 
+            txtPaidDay.Location = new Point(478, 112);
+            txtPaidDay.Margin = new Padding(3, 4, 3, 4);
+            txtPaidDay.Name = "txtPaidDay";
+            txtPaidDay.Size = new Size(198, 27);
+            txtPaidDay.TabIndex = 13;
+            txtPaidDay.TextChanged += txtPaidDay_TextChanged;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(15, 116);
+            label6.Name = "label6";
+            label6.Size = new Size(77, 20);
+            label6.TabIndex = 12;
+            label6.Text = "Ngày thuê";
+            // 
+            // txtRentDay
+            // 
+            txtRentDay.Location = new Point(120, 112);
+            txtRentDay.Margin = new Padding(3, 4, 3, 4);
+            txtRentDay.Name = "txtRentDay";
+            txtRentDay.Size = new Size(198, 27);
+            txtRentDay.TabIndex = 11;
             // 
             // UC_ConfirmPayment
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtCarType);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtPhoneNumber);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtCarId);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtCustomerFullName);
-            this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnConfirm);
-            this.Controls.Add(this.dgvBookingDetail);
-            this.Name = "UC_ConfirmPayment";
-            this.Size = new System.Drawing.Size(690, 602);
-            this.Load += new System.EventHandler(this.UC_ConfirmPayment_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvBookingDetail)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(label5);
+            Controls.Add(txtPaidDay);
+            Controls.Add(label6);
+            Controls.Add(txtRentDay);
+            Controls.Add(label4);
+            Controls.Add(txtCarType);
+            Controls.Add(label3);
+            Controls.Add(txtPhoneNumber);
+            Controls.Add(label2);
+            Controls.Add(txtCarId);
+            Controls.Add(label1);
+            Controls.Add(txtCustomerFullName);
+            Controls.Add(btnCancel);
+            Controls.Add(btnConfirm);
+            Controls.Add(dgvBookingDetail);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "UC_ConfirmPayment";
+            Size = new Size(789, 744);
+            Load += UC_ConfirmPayment_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvBookingDetail).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -195,5 +250,9 @@
         private TextBox txtPhoneNumber;
         private Label label4;
         private TextBox txtCarType;
+        private Label label5;
+        private TextBox txtPaidDay;
+        private Label label6;
+        private TextBox txtRentDay;
     }
 }

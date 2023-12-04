@@ -25,6 +25,12 @@
     <Compile Update="UserControls\UC_Homepage.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControls\UC_Invoice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\UC_InvoiceDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControls\UC_RentCar.cs">
       <SubType>UserControl</SubType>
     </Compile>

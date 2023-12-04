@@ -21,13 +21,13 @@ namespace dotNet_GK_QUANLYTHUEXEOTO
 
         private void setClickEvent(Button b)
         {
-            b.BackColor = Color.DarkRed;
             b.ForeColor = Color.Snow;
+            b.BackColor = Color.DarkRed;
             b.Enabled = false;
         }
         private void resetClickEvent(Button b)
         {
-            if (b!=null)
+            if (b != null)
             {
                 b.BackColor = Color.White;
                 b.Enabled = true;
@@ -119,12 +119,12 @@ namespace dotNet_GK_QUANLYTHUEXEOTO
 
         private void Homepage_Load(object sender, EventArgs e)
         {
-/*            using (var dbContext = new BookingCarDbContext())
-            {
-                dbContext.Database.EnsureCreated();
+            /*            using (var dbContext = new BookingCarDbContext())
+                        {
+                            dbContext.Database.EnsureCreated();
 
-                dbContext.SaveChanges();
-            }*/
+                            dbContext.SaveChanges();
+                        }*/
 
         }
 
@@ -136,6 +136,14 @@ namespace dotNet_GK_QUANLYTHUEXEOTO
                 loginForm.Show();
                 this.Hide();
             }
+        }
+
+        private void btnInvoices_Click(object sender, EventArgs e)
+        {
+            clickEvent(btnInvoices);
+
+            UC_Invoice uc = new UC_Invoice();
+            addUserControl(uc);
         }
     }
 }

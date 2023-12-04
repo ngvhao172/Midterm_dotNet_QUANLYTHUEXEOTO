@@ -27,6 +27,11 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Controller
             var bookings = await dbContext.Bookings.Where(b => b.Status == Model.Enum.BookingStatus.Renting).Include(c => c.Customer).Include(c => c.Car).ThenInclude(c => c.CarType).ToListAsync();
             return bookings;
         }
+        public async Task<List<Booking>> GetAllBookingsPaid()
+        {
+            var bookings = await dbContext.Bookings.Where(b => b.Status == Model.Enum.BookingStatus.Paid).Include(c => c.Customer).Include(c => c.Car).ThenInclude(c => c.CarType).ToListAsync();
+            return bookings;
+        }
         public async Task<List<Booking>> GetAllBookings()
         {
             var bookings = await dbContext.Bookings.Include(c => c.Customer).Include(c => c.Car).ThenInclude(c => c.CarType).ToListAsync();

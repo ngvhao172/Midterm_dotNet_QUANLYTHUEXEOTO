@@ -29,206 +29,231 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Homepage));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btn_Logout = new System.Windows.Forms.Button();
-            this.txtName = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnSchedule = new System.Windows.Forms.Button();
-            this.btnReportAndStatistic = new System.Windows.Forms.Button();
-            this.btnCustomerManagement = new System.Windows.Forms.Button();
-            this.btnCarManagement = new System.Windows.Forms.Button();
-            this.btnCarOrders = new System.Windows.Forms.Button();
-            this.btnRentCar = new System.Windows.Forms.Button();
-            this.btnHomepage = new System.Windows.Forms.Button();
-            this.panelContainer = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.SuspendLayout();
+            panel1 = new Panel();
+            btn_Logout = new Button();
+            txtName = new Label();
+            label1 = new Label();
+            pictureBox1 = new PictureBox();
+            panel2 = new Panel();
+            btnInvoices = new Button();
+            btnSchedule = new Button();
+            btnReportAndStatistic = new Button();
+            btnCustomerManagement = new Button();
+            btnCarManagement = new Button();
+            btnCarOrders = new Button();
+            btnRentCar = new Button();
+            btnHomepage = new Button();
+            panelContainer = new Panel();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel2.SuspendLayout();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.RosyBrown;
-            this.panel1.Controls.Add(this.btn_Logout);
-            this.panel1.Controls.Add(this.txtName);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1404, 80);
-            this.panel1.TabIndex = 0;
+            panel1.BackColor = Color.RosyBrown;
+            panel1.Controls.Add(btn_Logout);
+            panel1.Controls.Add(txtName);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1605, 107);
+            panel1.TabIndex = 0;
             // 
             // btn_Logout
             // 
-            this.btn_Logout.BackColor = System.Drawing.Color.DarkRed;
-            this.btn_Logout.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_Logout.ForeColor = System.Drawing.Color.Snow;
-            this.btn_Logout.Location = new System.Drawing.Point(1250, 24);
-            this.btn_Logout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btn_Logout.Name = "btn_Logout";
-            this.btn_Logout.Size = new System.Drawing.Size(114, 33);
-            this.btn_Logout.TabIndex = 6;
-            this.btn_Logout.Text = "Đăng xuất";
-            this.btn_Logout.UseVisualStyleBackColor = false;
-            this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click_1);
+            btn_Logout.BackColor = Color.DarkRed;
+            btn_Logout.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btn_Logout.ForeColor = Color.Snow;
+            btn_Logout.Location = new Point(1429, 32);
+            btn_Logout.Name = "btn_Logout";
+            btn_Logout.Size = new Size(130, 44);
+            btn_Logout.TabIndex = 6;
+            btn_Logout.Text = "Đăng xuất";
+            btn_Logout.UseVisualStyleBackColor = false;
+            btn_Logout.Click += btn_Logout_Click_1;
             // 
             // txtName
             // 
-            this.txtName.AutoSize = true;
-            this.txtName.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtName.Location = new System.Drawing.Point(1019, 28);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(139, 22);
-            this.txtName.TabIndex = 2;
-            this.txtName.Text = "Xin chào Hào!";
+            txtName.AutoSize = true;
+            txtName.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            txtName.Location = new Point(1165, 37);
+            txtName.Name = "txtName";
+            txtName.Size = new Size(182, 30);
+            txtName.TabIndex = 2;
+            txtName.Text = "Xin chào Hào!";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(143, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 32);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "AUTO CAR";
+            label1.AutoSize = true;
+            label1.Font = new Font("Century Gothic", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(163, 28);
+            label1.Name = "label1";
+            label1.Size = new Size(189, 40);
+            label1.TabIndex = 1;
+            label1.Text = "AUTO CAR";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(28, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(32, 16);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(114, 67);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.btnSchedule);
-            this.panel2.Controls.Add(this.btnReportAndStatistic);
-            this.panel2.Controls.Add(this.btnCustomerManagement);
-            this.panel2.Controls.Add(this.btnCarManagement);
-            this.panel2.Controls.Add(this.btnCarOrders);
-            this.panel2.Controls.Add(this.btnRentCar);
-            this.panel2.Controls.Add(this.btnHomepage);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 80);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1404, 50);
-            this.panel2.TabIndex = 1;
+            panel2.Controls.Add(btnInvoices);
+            panel2.Controls.Add(btnSchedule);
+            panel2.Controls.Add(btnReportAndStatistic);
+            panel2.Controls.Add(btnCustomerManagement);
+            panel2.Controls.Add(btnCarManagement);
+            panel2.Controls.Add(btnCarOrders);
+            panel2.Controls.Add(btnRentCar);
+            panel2.Controls.Add(btnHomepage);
+            panel2.Dock = DockStyle.Top;
+            panel2.Location = new Point(0, 107);
+            panel2.Margin = new Padding(3, 4, 3, 4);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1605, 67);
+            panel2.TabIndex = 1;
+            // 
+            // btnInvoices
+            // 
+            btnInvoices.BackColor = Color.White;
+            btnInvoices.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnInvoices.Location = new Point(803, 0);
+            btnInvoices.Margin = new Padding(3, 4, 3, 4);
+            btnInvoices.Name = "btnInvoices";
+            btnInvoices.Size = new Size(135, 67);
+            btnInvoices.TabIndex = 7;
+            btnInvoices.Text = "Danh sách hóa đơn";
+            btnInvoices.UseVisualStyleBackColor = false;
+            btnInvoices.Click += btnInvoices_Click;
             // 
             // btnSchedule
             // 
-            this.btnSchedule.BackColor = System.Drawing.Color.White;
-            this.btnSchedule.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSchedule.Location = new System.Drawing.Point(234, 0);
-            this.btnSchedule.Name = "btnSchedule";
-            this.btnSchedule.Size = new System.Drawing.Size(118, 50);
-            this.btnSchedule.TabIndex = 6;
-            this.btnSchedule.Text = "Quản lý lịch trình";
-            this.btnSchedule.UseVisualStyleBackColor = false;
-            this.btnSchedule.Click += new System.EventHandler(this.btnSchedule_Click);
+            btnSchedule.BackColor = Color.White;
+            btnSchedule.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnSchedule.Location = new Point(267, 0);
+            btnSchedule.Margin = new Padding(3, 4, 3, 4);
+            btnSchedule.Name = "btnSchedule";
+            btnSchedule.Size = new Size(135, 67);
+            btnSchedule.TabIndex = 6;
+            btnSchedule.Text = "Quản lý lịch trình";
+            btnSchedule.UseVisualStyleBackColor = false;
+            btnSchedule.Click += btnSchedule_Click;
             // 
             // btnReportAndStatistic
             // 
-            this.btnReportAndStatistic.BackColor = System.Drawing.Color.White;
-            this.btnReportAndStatistic.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnReportAndStatistic.Location = new System.Drawing.Point(702, 0);
-            this.btnReportAndStatistic.Name = "btnReportAndStatistic";
-            this.btnReportAndStatistic.Size = new System.Drawing.Size(118, 50);
-            this.btnReportAndStatistic.TabIndex = 5;
-            this.btnReportAndStatistic.Text = "Báo cáo";
-            this.btnReportAndStatistic.UseVisualStyleBackColor = false;
-            this.btnReportAndStatistic.Click += new System.EventHandler(this.btnReportAndStatistic_Click);
+            btnReportAndStatistic.BackColor = Color.White;
+            btnReportAndStatistic.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnReportAndStatistic.Location = new Point(937, 0);
+            btnReportAndStatistic.Margin = new Padding(3, 4, 3, 4);
+            btnReportAndStatistic.Name = "btnReportAndStatistic";
+            btnReportAndStatistic.Size = new Size(135, 67);
+            btnReportAndStatistic.TabIndex = 5;
+            btnReportAndStatistic.Text = "Báo cáo";
+            btnReportAndStatistic.UseVisualStyleBackColor = false;
+            btnReportAndStatistic.Click += btnReportAndStatistic_Click;
             // 
             // btnCustomerManagement
             // 
-            this.btnCustomerManagement.BackColor = System.Drawing.Color.White;
-            this.btnCustomerManagement.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCustomerManagement.Location = new System.Drawing.Point(585, 0);
-            this.btnCustomerManagement.Name = "btnCustomerManagement";
-            this.btnCustomerManagement.Size = new System.Drawing.Size(118, 50);
-            this.btnCustomerManagement.TabIndex = 4;
-            this.btnCustomerManagement.Text = "Quản lý khách hàng";
-            this.btnCustomerManagement.UseVisualStyleBackColor = false;
-            this.btnCustomerManagement.Click += new System.EventHandler(this.btnCustomerManagement_Click);
+            btnCustomerManagement.BackColor = Color.White;
+            btnCustomerManagement.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCustomerManagement.Location = new Point(669, 0);
+            btnCustomerManagement.Margin = new Padding(3, 4, 3, 4);
+            btnCustomerManagement.Name = "btnCustomerManagement";
+            btnCustomerManagement.Size = new Size(135, 67);
+            btnCustomerManagement.TabIndex = 4;
+            btnCustomerManagement.Text = "Quản lý khách hàng";
+            btnCustomerManagement.UseVisualStyleBackColor = false;
+            btnCustomerManagement.Click += btnCustomerManagement_Click;
             // 
             // btnCarManagement
             // 
-            this.btnCarManagement.BackColor = System.Drawing.Color.White;
-            this.btnCarManagement.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCarManagement.Location = new System.Drawing.Point(468, 0);
-            this.btnCarManagement.Name = "btnCarManagement";
-            this.btnCarManagement.Size = new System.Drawing.Size(118, 50);
-            this.btnCarManagement.TabIndex = 3;
-            this.btnCarManagement.Text = "Quản lý ô tô";
-            this.btnCarManagement.UseVisualStyleBackColor = false;
-            this.btnCarManagement.Click += new System.EventHandler(this.btnCarManagement_Click);
+            btnCarManagement.BackColor = Color.White;
+            btnCarManagement.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCarManagement.Location = new Point(535, 0);
+            btnCarManagement.Margin = new Padding(3, 4, 3, 4);
+            btnCarManagement.Name = "btnCarManagement";
+            btnCarManagement.Size = new Size(135, 67);
+            btnCarManagement.TabIndex = 3;
+            btnCarManagement.Text = "Quản lý ô tô";
+            btnCarManagement.UseVisualStyleBackColor = false;
+            btnCarManagement.Click += btnCarManagement_Click;
             // 
             // btnCarOrders
             // 
-            this.btnCarOrders.BackColor = System.Drawing.Color.White;
-            this.btnCarOrders.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCarOrders.Location = new System.Drawing.Point(351, 0);
-            this.btnCarOrders.Name = "btnCarOrders";
-            this.btnCarOrders.Size = new System.Drawing.Size(118, 50);
-            this.btnCarOrders.TabIndex = 2;
-            this.btnCarOrders.Text = "Quản lý đơn đặt";
-            this.btnCarOrders.UseVisualStyleBackColor = false;
-            this.btnCarOrders.Click += new System.EventHandler(this.btnCarOrders_Click);
+            btnCarOrders.BackColor = Color.White;
+            btnCarOrders.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCarOrders.Location = new Point(401, 0);
+            btnCarOrders.Margin = new Padding(3, 4, 3, 4);
+            btnCarOrders.Name = "btnCarOrders";
+            btnCarOrders.Size = new Size(135, 67);
+            btnCarOrders.TabIndex = 2;
+            btnCarOrders.Text = "Quản lý đơn đặt";
+            btnCarOrders.UseVisualStyleBackColor = false;
+            btnCarOrders.Click += btnCarOrders_Click;
             // 
             // btnRentCar
             // 
-            this.btnRentCar.BackColor = System.Drawing.Color.White;
-            this.btnRentCar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRentCar.Location = new System.Drawing.Point(117, 0);
-            this.btnRentCar.Name = "btnRentCar";
-            this.btnRentCar.Size = new System.Drawing.Size(118, 50);
-            this.btnRentCar.TabIndex = 1;
-            this.btnRentCar.Text = "Thuê xe";
-            this.btnRentCar.UseVisualStyleBackColor = false;
-            this.btnRentCar.Click += new System.EventHandler(this.btnRentCar_Click);
+            btnRentCar.BackColor = Color.White;
+            btnRentCar.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnRentCar.Location = new Point(134, 0);
+            btnRentCar.Margin = new Padding(3, 4, 3, 4);
+            btnRentCar.Name = "btnRentCar";
+            btnRentCar.Size = new Size(135, 67);
+            btnRentCar.TabIndex = 1;
+            btnRentCar.Text = "Thuê xe";
+            btnRentCar.UseVisualStyleBackColor = false;
+            btnRentCar.Click += btnRentCar_Click;
             // 
             // btnHomepage
             // 
-            this.btnHomepage.BackColor = System.Drawing.Color.White;
-            this.btnHomepage.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHomepage.Location = new System.Drawing.Point(0, 0);
-            this.btnHomepage.Name = "btnHomepage";
-            this.btnHomepage.Size = new System.Drawing.Size(118, 50);
-            this.btnHomepage.TabIndex = 0;
-            this.btnHomepage.Text = "Trang chủ";
-            this.btnHomepage.UseVisualStyleBackColor = false;
-            this.btnHomepage.Click += new System.EventHandler(this.btnHomepage_Click);
+            btnHomepage.BackColor = Color.White;
+            btnHomepage.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnHomepage.Location = new Point(0, 0);
+            btnHomepage.Margin = new Padding(3, 4, 3, 4);
+            btnHomepage.Name = "btnHomepage";
+            btnHomepage.Size = new Size(135, 67);
+            btnHomepage.TabIndex = 0;
+            btnHomepage.Text = "Trang chủ";
+            btnHomepage.UseVisualStyleBackColor = false;
+            btnHomepage.Click += btnHomepage_Click;
             // 
             // panelContainer
             // 
-            this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContainer.Location = new System.Drawing.Point(0, 130);
-            this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(1404, 615);
-            this.panelContainer.TabIndex = 2;
+            panelContainer.Dock = DockStyle.Fill;
+            panelContainer.Location = new Point(0, 174);
+            panelContainer.Margin = new Padding(3, 4, 3, 4);
+            panelContainer.Name = "panelContainer";
+            panelContainer.Size = new Size(1605, 819);
+            panelContainer.TabIndex = 2;
             // 
             // Homepage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1404, 745);
-            this.Controls.Add(this.panelContainer);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Name = "Homepage";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Homepage_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1605, 993);
+            Controls.Add(panelContainer);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "Homepage";
+            Text = "Auto Car";
+            Load += Homepage_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel2.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion
@@ -247,5 +272,7 @@
         private Button btnCarOrders;
         private Panel panelContainer;
         private Button btn_Logout;
+        private Button button1;
+        private Button btnInvoices;
     }
 }

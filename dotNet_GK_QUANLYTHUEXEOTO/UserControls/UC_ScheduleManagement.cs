@@ -96,6 +96,8 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
                 uc.BookingId = BookingId;
 
                 TemporaryForm temporaryForm = new TemporaryForm(uc);
+                temporaryForm.Height = 774;
+                temporaryForm.Width = 810;
                 temporaryForm.ShowDialog();
             }
         }

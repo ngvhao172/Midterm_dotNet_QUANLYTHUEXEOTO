@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S+fbiA+eJqsZirdTIhQpCcq8F9J5pzWzbIlwwkb2UbiI/VfYfk3DD8A7Hp+OqcOeBufIQ6l3VvHO/Eyb9vN28w==",
+  "dgSpecHash": "dn4uJwHaQAgJ+5luouWMfKFoyzHoqJOdAARqr/vyiAgMjFBzepxj5ltvVEk9du30vzstBcN7vuEBRNWe5sKS5A==",
   "success": true,
-  "projectFilePath": "D:\\Code\\dotNet\\Midterm\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO.csproj",
+  "projectFilePath": "D:\\Code\\dotNet\\Midterm\\Midterm_dotNet_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

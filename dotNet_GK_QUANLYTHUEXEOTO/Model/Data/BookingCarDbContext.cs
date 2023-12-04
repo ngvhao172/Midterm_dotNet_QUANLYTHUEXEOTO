@@ -29,7 +29,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.Model.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=ADMINISTRATOR\SQLEXPRESS;Database=QLTHUEXEOTO;Trusted_Connection=True;TrustServerCertificate=True; MultipleActiveResultSets=true");
+            optionsBuilder.UseSqlServer(@"Server=MSI\SQLEXPRESS;Database=QLTHUEXEOTO;Trusted_Connection=True;TrustServerCertificate=True; MultipleActiveResultSets=true");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -33,6 +33,8 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             txtCarId.Text = booking.CarId;
             txtCarType.Text = booking.Car.CarType.Name;
 
+            txtRentDay.Text = booking.FromDate.ToString();
+            txtPaidDay.Text = booking.ToDate.ToString();
 
 
             //số ngày thuê
@@ -44,7 +46,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             dgvBookingDetail.Rows.Add(booking.Fuel.Name, booking.Fuel.Price);
             //tính năng
             var features = booking.Features;
-            foreach(var feature in features )
+            foreach (var feature in features)
             {
                 dgvBookingDetail.Rows.Add(feature.Name, feature.Price);
             }
@@ -60,7 +62,7 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
             dgvBookingDetail.Rows.Add("Tổng cộng", total);
 
         }
-         
+
         private void btnCancel_Click(object sender, EventArgs e)
         {
             Button clickedButon = sender as Button;
@@ -107,6 +109,13 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
                         if (formContaner != null)
                         {
                             formContaner.Close();
+                            UC_InvoiceDetail uc = new UC_InvoiceDetail();
+                            uc.BookingId = BookingId;
+
+                            TemporaryForm temporaryForm = new TemporaryForm(uc);
+                            temporaryForm.Height = 774;
+                            temporaryForm.Width = 810;
+                            temporaryForm.ShowDialog();
                         }
                     }
                 }
@@ -120,6 +129,20 @@ namespace dotNet_GK_QUANLYTHUEXEOTO.UserControls
         private void txtValue_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = true;
+        }
+
+        private void txtPaidDay_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        public class TemporaryForm : Form
+        {
+            public TemporaryForm(UserControl userControl)
+            {
+                this.Text = "Invoice Detail";
+                this.Size = new System.Drawing.Size(720, 650);
+                this.Controls.Add(userControl);
+            }
         }
     }
 }

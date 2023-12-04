@@ -4234,11 +4234,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\dotNet\\Midterm\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO.csproj",
+      "projectUniqueName": "D:\\Code\\dotNet\\Midterm\\Midterm_dotNet_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO.csproj",
       "projectName": "dotNet_GK_QUANLYTHUEXEOTO",
-      "projectPath": "D:\\Code\\dotNet\\Midterm\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO.csproj",
+      "projectPath": "D:\\Code\\dotNet\\Midterm\\Midterm_dotNet_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\dotNet\\Midterm\\dotNet_GK_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\obj\\",
+      "outputPath": "D:\\Code\\dotNet\\Midterm\\Midterm_dotNet_QUANLYTHUEXEOTO\\dotNet_GK_QUANLYTHUEXEOTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4317,7 +4317,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },
